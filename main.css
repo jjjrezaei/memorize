@@ -1,0 +1,66 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #1e1e5f;
+  color: rgb(217, 217, 217);
+}
+
+header {
+  border-bottom: 2px solid #999; /* Black line underneath */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 40px; /* Add padding to create space between text and border */
+  padding-right: 40px;
+  padding-top: 20px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+p a:visited {
+  color:#dabc84;
+}
+
+a {
+  color:#84b1dd;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #84b1dd;
+  font-weight:lighter;
+  font-size: 20px;
+}
+
+.webName {
+  text-decoration: none;
+  color: #84b1dd;
+  font-size: 32px;
+}
+
+.webName:hover {
+  color: #dfded4;
+
+}
+
+nav a:hover {
+  color: #dfded4; 
+}
